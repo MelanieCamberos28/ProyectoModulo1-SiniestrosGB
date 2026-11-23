@@ -3,7 +3,7 @@
 **Proyecto integrador — Módulo I**
 Diplomado en Métodos Estadísticos y Matemáticos para la Ciencia de Datos, Ed. 3 (Facultad de Ciencias, UNAM)
 Módulo I: Preprocesamiento y técnicas básicas de visualización de datos
-Fecha de entrega: 22 de noviembre de 2026
+Fecha de entrega: 24 de noviembre de 2026
 
 ## Equipo
 
