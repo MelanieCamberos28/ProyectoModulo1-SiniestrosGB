@@ -25,7 +25,7 @@ interpretaciones.
 El análisis parte de una pregunta general:
 
 > En siniestros con exactamente dos automóviles y conductores de distinto sexo, ¿cómo se
-> comparan la presencia y la gravedad de las lesiones registradas de ambos conductores?
+> comparan la presencia y la gravedad de las lesiones registradas de ambos conductores ?
 
 que se concreta en dos preguntas de investigación de carácter descriptivo:
 
@@ -39,21 +39,6 @@ que se concreta en dos preguntas de investigación de carácter descriptivo:
 (`first_point_of_impact == 1`) en ambos vehículos. La unidad de análisis es el par de
 conductores de un mismo siniestro.
 
-> Los resultados son representativos únicamente de esta población y **no** permiten establecer
-> relaciones causales.
-
-## Estructura del repositorio
-
-```
-.
-├── Datos/                  # CSV de STATS19 (2023-2025) y guía de datos oficial
-├── Notebooks/
-│   ├── Borrador1.ipynb     # Notebook con todo el análisis
-│   └── resultados/         # Tablas y figuras generadas por el notebook
-├── CONTRIBUCIONES.md       # Registro de contribuciones del equipo
-├── README.md
-└── requirements.txt        # Dependencias
-```
 
 ## Datos y licencia
 
@@ -82,7 +67,6 @@ la ausencia de una lesión registrada no implica que la persona haya resultado i
 
 - Python 3.10 o superior
 - Git
-- Jupyter (se instala con las dependencias)
 
 ### Pasos
 
@@ -118,16 +102,6 @@ la ausencia de una lesión registrada no implica que la persona haya resultado i
 
 5. Las figuras y tablas se guardan en `Notebooks/resultados/`.
 
-### En Google Colab
-
-Colab no incluye los datos, así que primero hay que clonar el repositorio en una celda:
-
-```python
-!git clone https://github.com/MelanieCamberos28/ProyectoModulo1-SiniestrosGB.git
-%cd ProyectoModulo1-SiniestrosGB/Notebooks
-```
-
-y después abrir y ejecutar el notebook desde ahí.
 
 ## Dependencias
 
@@ -150,19 +124,8 @@ principalmente `pandas`, `numpy` y `matplotlib`, además de Jupyter para ejecuta
    con gráficas e interpretación.
 5. **Conclusiones:** hallazgos, alcances y limitaciones, y líneas futuras.
 6. **Anexo:** análisis complementario de la cilindrada del motor (`engine_capacity_cc`) dentro
-   de cada par, con auditoría de calidad y recodificación de valores faltantes.
-
-## Resultados principales
-
-| | 2023 | 2024 | 2025 |
-|---|---|---|---|
-| Siniestros en la población de estudio | 2,202 | 2,197 | 2,078 |
-| Pregunta 1: la conductora es la única con lesión registrada | 72.17 % | 74.04 % | 72.86 % |
-| Pregunta 2: la conductora tiene la lesión más grave (distinta gravedad) | 60.98 % | 59.91 % | 58.41 % |
-
-Los resultados son estables en los tres años. En el anexo se observa, además, que el porcentaje
-de lesiones únicas en conductoras varía según qué auto tiene mayor cilindrada dentro del par,
-pero se mantiene por encima del 60 % en todos los casos.
+   de cada par, con auditoría de calidad y recodificación de valores faltantes y un analisis por 
+   edades de parejas involucradas.
 
 ## Limitaciones
 
@@ -174,6 +137,3 @@ pero se mantiene por encima del 60 % en todos los casos.
 - Los resultados aplican solo a la población delimitada y no pueden generalizarse a todos los
   siniestros viales.
 
-## Versión final
-
-La versión entregada corresponde a la etiqueta `v1.0-entrega`.
