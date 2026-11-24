@@ -5,28 +5,6 @@ Módulo I
 
 ---
 
-## Juan Carlos Lee Martinez Cairo
-
-### Análisis y limpieza
-- Seccion donde se analizan los incidentes por edad. Seccion 6. 
-- Inclusiones de tablas explicativas de variables.
-
-### Redacción y documentación del cuaderno
-- Homogenizacion de formato y funciones relacionadas
-- Revisión del lenguaje .
-- Citas formales.
-
-### Visualización y reproducibilidad
-- Unificación del estilo de las seis figuras: tamaño, paleta Okabe-Ito (azul `#0072B2` y bermellón `#D55E00`), títulos, ejes e intervalos de Wilson al 95 %.
-- Estilo de tablas legible en modo claro y oscuro.
-- Verificación de que el cuaderno se ejecuta de principio a fin en una copia limpia del repositorio, sin errores.
-- `requirements.txt` con las versiones usadas y sección nueva del `README.md`.
-
-### Presentación
-- Turno de exposición: auditoría de calidad de los datos y embudo de selección (diapositivas 6 y 7 de la presentación).
-
----
-
 ## Guillermo Adolfo Méndez Roche
 
 ### Planteamiento y diseño metodológico
@@ -57,14 +35,85 @@ Módulo I
 
 ---
 
+## Juan Carlos Lee Martinez Cairo
+
+### Análisis y limpieza
+- Seccion donde se analizan los incidentes por edad. Seccion 6. 
+- Inclusiones de tablas explicativas de variables.
+
+### Redacción y documentación del cuaderno
+- Homogenizacion de formato y funciones relacionadas
+- Revisión del lenguaje .
+- Citas formales.
+
+### Visualización y reproducibilidad
+- Unificación del estilo de las seis figuras: tamaño, paleta Okabe-Ito (azul `#0072B2` y bermellón `#D55E00`), títulos, ejes e intervalos de Wilson al 95 %.
+- Estilo de tablas legible en modo claro y oscuro.
+- Verificación de que el cuaderno se ejecuta de principio a fin en una copia limpia del repositorio, sin errores.
+- `requirements.txt` con las versiones usadas y sección nueva del `README.md`.
+
+### Presentación
+- Turno de exposición: auditoría de calidad de los datos y embudo de selección (diapositivas 6 y 7 de la presentación).
+
+---
+
 ## Karla Melanie Camberos Jiménez
 
-_(por completar)_
+### Análisis y limpieza
+- Análisis descriptivo de las dos preguntas conductoras principales del proyecto.
+- Cálculo de porcentajes anuales y globales de lesiones únicas y diferencias de gravedad.
+- Delimitación de los criterios de selección de las parejas para cada análisis.
+
+### Redacción y documentación del cuaderno
+- Documentación de los resultados obtenidos para ambas preguntas conductoras.
+- Explicación de los supuestos y limitaciones de interpretación de las variables analizadas.
+- Incorporación de precisiones sobre el subregistro y el alcance descriptivo del análisis.
+
+### Visualización y reproducibilidad
+- Elaboración de las Figuras 1 y 2 para visualizar los porcentajes de lesiones únicas y diferencias de gravedad.
+- Incorporación de intervalos de confianza de Wilson al 95 % y referencia del 50 %.
+
+### Presentación
+- Turno de exposición: Explicación de los resultados obtenidos en las dos preguntas conductoras principales y transición hacia las extensiones del análisis (diapositivas 8 y 9 de la presentación).
+
+---
 
 ## Tamara Iraís Lara Sandoval
 
-_(por completar)_
+### Análisis y limpieza
+- Incorporación de la variable engine_capacity como extensión del análisis.
+- Identificación y tratamiento de valores faltantes, exclusiones y valores fuera del rango establecido.
+- Cálculo de diferencias de cilindrada dentro de cada pareja, análisis e interpretación según quién resultó lesionado.
+
+### Redacción y documentación del cuaderno
+- Documentación de la metodología utilizada para el análisis de cilindrada.
+- Incorporación de explicaciones sobre las decisiones de limpieza y selección de la variable.
+
+### Visualización y reproducibilidad
+- Elaboración e inclusión de tablas explicativas de la variable.
+- Interpretación de las gráficas correspondientes a la distribución de las diferencias de cilindrada y la ventaja de motor.
+- Presentación de resultados mediante tablas descriptivas y gráficas comparativas.
+
+### Presentación
+- Turno de exposición: explicación de la nueva variable tomada para el análisis, las decisiones de limpieza, así como los resultados que obtuvimos (diapositivas 10 a 12 de la presentación).
+
+--- 
 
 ## Sofía Quetzalli González Robles
 
-_(por completar)_
+### Análisis y limpieza
+- Análisis de la variable edad dentro de la pareja, mediante el cálculo de Δedad.
+- Auditoría de valores faltantes y revisión de casos atípicos.
+- Análisis de sensibilidad al registro de edad atípico de 4 años y verificación de consistencia de la información.
+
+### Redacción y documentación del cuaderno
+- Documentación de la extensión emparejada de edad y sus resultados.
+- Elaboración de la síntesis crítica final del proyecto, incluyendo alcances, limitaciones y líneas futuras de análisis.
+
+### Visualización y reproducibilidad
+- Elaboración e interpretación correspondientes al análisis de edad y sus estratos.
+- Análisis de sensibilidad utilizando cortes de 5, 10 y 15 años.
+- Organización y explicación de la estructuración del repositorio en GitHub para facilitar la reproducibilidad del proyecto.
+
+### Presentación
+- Turno de exposición: explicación de la extensión emparejada de edad, análisis por estratos, organización del repositorio, reproducibilidad y conclusiones finales del proyecto (diapositivas 11 a 15 de la presentación).
