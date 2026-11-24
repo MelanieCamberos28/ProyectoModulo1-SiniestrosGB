@@ -89,7 +89,7 @@ la ausencia de una lesión registrada no implica que la persona haya resultado i
 
    ```bash
    cd Notebooks
-   jupyter notebook Borrador1.ipynb
+   jupyter notebook Proyecto_CarritosChocones_v2.ipynb
    ```
 
    El notebook lee los datos con la ruta relativa `../Datos`, por lo que debe ejecutarse con
