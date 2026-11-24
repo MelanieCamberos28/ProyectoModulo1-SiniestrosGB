@@ -70,11 +70,11 @@ la ausencia de una lesión registrada no implica que la persona haya resultado i
 
 ### Pasos
 
-1. Clonar el repositorio:
+1. Clonar la rama del equipo:
 
    ```bash
-   git clone https://github.com/MelanieCamberos28/ProyectoModulo1-SiniestrosGB.git
-   cd ProyectoModulo1-SiniestrosGB
+   git clone https://github.com/chaffrey8/DMEMCD_2026.git --branch proyecto/CarritosChocones --single-branch CarritosChocones
+   cd CarritosChocones
    ```
 
 2. Crear un entorno virtual e instalar las dependencias:
