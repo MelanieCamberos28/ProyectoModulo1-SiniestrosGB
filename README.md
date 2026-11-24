@@ -65,7 +65,7 @@ la ausencia de una lesión registrada no implica que la persona haya resultado i
 
 ### Requisitos
 
-- Python 3.10 o superior
+- Python 3.12 o superior
 - Git
 
 ### Pasos
