@@ -110,22 +110,16 @@ principalmente `pandas`, `numpy` y `matplotlib`, además de Jupyter para ejecuta
 
 ## Contenido del notebook
 
-1. **Introducción:** fuente de los datos, descripción de las tablas, identificadores y
-   preguntas de investigación.
-2. **Carga y exploración inicial:** carga de las nueve tablas (tres por año) y sus dimensiones.
-3. **Calidad, limpieza y transformación:**
-   - verificación de variables, unicidad de identificadores y coherencia del número de vehículos;
-   - revisión de la calidad del sexo del conductor y de la gravedad de las lesiones;
-   - decisión de limpieza: tratamiento de los registros de sexo desconocido;
-   - construcción de la población de estudio;
-   - decisión de transformación: incorporación de las lesiones de los conductores a la tabla de
-     vehículos.
-4. **Análisis exploratorio y visualización:** respuesta a las dos preguntas de investigación,
-   con gráficas e interpretación.
-5. **Conclusiones:** hallazgos, alcances y limitaciones, y líneas futuras.
-6. **Anexo:** análisis complementario de la cilindrada del motor (`engine_capacity_cc`) dentro
-   de cada par, con auditoría de calidad y recodificación de valores faltantes y un analisis por 
-   edades de parejas involucradas.
+1. **Introducción:** descripción de STATS19, sus tablas, identificadores y preguntas conductoras.
+2. **Carga y exploración inicial de datos:**
+   - Carga de las nueve tablas.
+   - Verificación de identificadores y consistencia entre tablas.
+   - Exploración de las variables de sexo y gravedad de las lesiones.
+3. **Construcción de la población de estudio:** criterios de selección, filtrado de los datos y construcción del diccionario `análisis`.
+4. **Análisis de las lesiones registradas en cada pareja:** respuesta a las dos preguntas conductoras.
+5. **Extensión del análisis: relación entre la cilindrada y las lesiones registradas:** limpieza de la variable `engine_capacity_cc` y análisis por diferencias de cilindrada.
+6. **Extensión del análisis: diferencia de edad dentro de la pareja:** limpieza de la variable `age_of_driver` y análisis por diferencias de edad.
+7. **Conclusiones:** principales resultados, limitaciones y posibles líneas de investigación futuras.
 
 ## Limitaciones
 
