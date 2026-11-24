@@ -10,7 +10,6 @@ Módulo I
 ### Planteamiento y diseño metodológico
 - Evaluación y selección de STATS19 como base de datos para el proyecto.
 - Definición de la población de análisis y de sus criterios de selección.
-- Formulación de las dos preguntas conductoras.
 - Diseño de la metodología de comparación por pares de conductores pertenecientes a un mismo siniestro.
 
 ### Análisis y limpieza
@@ -20,15 +19,10 @@ Módulo I
 - Diseño e implementación del proceso de filtrado mediante identificadores y construcción del diccionario `análisis` (secciones 3.1 a 3.4).
 - Incorporación de la información sobre lesiones registradas y su gravedad a la tabla `vehicles`, incluyendo la creación de la variable `lesión_registrada` (sección 4.1).
 - Desarrollo de los procedimientos de cálculo para responder las dos preguntas conductoras (secciones 4.2 y 4.3.1).
-- Identificación y tratamiento de las particularidades de los automóviles eléctricos en el análisis de cilindradas.
 
 ### Redacción y documentación del cuaderno
 - Redacción de los borradores iniciales del cuaderno, incluyendo el planteamiento del problema y la explicación de la metodología.
 - Identificación y discusión de las limitaciones metodológicas del análisis.
-- Redacción e interpretación de los resultados de las dos preguntas conductoras (secciones 4.2.2 y 4.3.3).
-
-### Visualización y reproducibilidad
-- Diseño y desarrollo de las visualizaciones originales para las dos preguntas conductoras, antes de su homogeneización (secciones 4.2.1 y 4.3.2).
 
 ### Presentación
 - Turno de exposición: presentación del equipo, descripción de STATS19, estructura relacional de sus tres tablas, definición de la población de análisis y planteamiento de las preguntas conductoras del proyecto (diapositivas 1 a 5).
@@ -116,4 +110,4 @@ Módulo I
 - Organización y explicación de la estructuración del repositorio en GitHub para facilitar la reproducibilidad del proyecto.
 
 ### Presentación
-- Turno de exposición: explicación de la extensión emparejada de edad, análisis por estratos, organización del repositorio, reproducibilidad y conclusiones finales del proyecto (diapositivas 11 a 15 de la presentación).
+- Turno de exposición: explicación de la extensión emparejada de edad, análisis por estratos, organización del repositorio, reproducibilidad y conclusiones finales del proyecto (diapositivas 13 a 15 de la presentación).
